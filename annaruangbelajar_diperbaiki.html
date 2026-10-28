@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ANNARUANGBELAJAR AI — ASMR Mini Cooking</title>
+<style>
+:root{--pink:#f6c9dc;--pink2:#fff0f6;--cream:#fff9ef;--ink:#493b43;--muted:#806f79;--line:#f0dce5;--white:#fff}*{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#fff5f9,#fffaf1);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink)}.wrap{max-width:760px;margin:auto;padding:18px 14px 40px}.hero{padding:24px 18px;border-radius:24px;background:linear-gradient(135deg,#f9d7e5,#fff1f6 58%,#fff8e9);box-shadow:0 8px 24px #b8799620}.badge{display:inline-block;background:#fff;border:1px solid var(--line);padding:6px 10px;border-radius:99px;font-size:12px;color:#9d5476;font-weight:700}.hero h1{font-size:26px;line-height:1.15;margin:12px 0 7px}.hero p{margin:0;color:var(--muted);font-size:14px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:17px;margin-top:14px;box-shadow:0 5px 18px #a66b8410}.card h2{font-size:17px;margin:0 0 14px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field{margin-bottom:13px}.field:last-child{margin-bottom:0}label{display:block;font-weight:650;font-size:13px;margin-bottom:6px}input,select,textarea{width:100%;border:1px solid #e9d6df;background:#fffdfd;border-radius:12px;padding:11px 12px;font:inherit;font-size:14px;color:var(--ink);outline-color:#d88eaf}textarea{min-height:78px;resize:vertical}.hint{font-size:12px;color:var(--muted);margin-top:5px}.radio-row{display:flex;flex-wrap:wrap;gap:8px}.pill{border:1px solid var(--line);border-radius:12px;padding:9px 10px;font-size:13px;display:flex;gap:7px;align-items:center;background:#fff8fb}.pill input{width:auto;margin:0}.btn{border:0;border-radius:13px;padding:13px 16px;font:inherit;font-weight:750;cursor:pointer}.primary{background:#dc8db1;color:#fff;width:100%;box-shadow:0 5px 12px #dc8db140}.secondary{background:#fff0f6;color:#9a4e72;border:1px solid #f0cfde}.result{white-space:pre-wrap;line-height:1.55;background:#fffafc;border:1px solid var(--line);padding:13px;border-radius:13px;font-size:13px;overflow-wrap:anywhere}.result-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:15px 0 8px}.result-head strong{font-size:14px}.smallbtn{border:1px solid var(--line);background:white;border-radius:9px;padding:7px 10px;font-weight:650;color:#995475}.preview{max-width:100%;max-height:180px;display:none;margin-top:9px;border-radius:12px;border:1px solid var(--line)}.notice{font-size:12px;line-height:1.5;color:#806f79;background:#fff7e9;border-radius:12px;padding:11px;margin-top:12px}.footer{text-align:center;font-size:12px;color:#947e89;padding:22px 8px}.hidden{display:none}@media(max-width:520px){.grid{grid-template-columns:1fr}.hero h1{font-size:24px}.wrap{padding:12px 10px 30px}}
+</style></head>
+<body><main class="wrap">
+<header class="hero"><span class="badge">✨ GENERATOR PROMPT AI</span><h1>ANNARUANGBELAJAR AI<br>ASMR MINI COOKING</h1><p>Buat ide storyboard dan prompt video masak mini yang realistis langsung dari HP.</p></header>
+<section class="card"><h2>🍳 1. Atur video</h2><div class="grid"><div class="field"><label for="mode">Mode konten</label><select id="mode"><option>ASMR Mini Cooking</option><option>ASMR Mini Cooking Affiliate</option></select></div><div class="field"><label for="dish">Menu masakan</label><input id="dish" placeholder="Contoh: mie bakso" value="Mie bakso"></div><div class="field"><label for="scenes">Jumlah scene</label><select id="scenes"><option value="5">5 scene</option><option value="10" selected>10 scene</option><option value="15">15 scene</option></select></div><div class="field"><label for="duration">Durasi video</label><select id="duration"><option value="10" selected>10 detik</option><option value="30">30 detik</option><option value="60">60 detik</option><option value="90">90 detik</option></select></div><div class="field"><label for="kitchen">Suasana dapur</label><select id="kitchen"><option>Dapur kayu desa saat hujan</option><option>Dapur estetik pastel</option><option>Dapur rumah tradisional Indonesia</option><option>Dapur modern minimalis</option></select></div><div class="field"><label for="hands">Gaya tangan</label><select id="hands"><option selected>Tangan manusia memasak dengan peralatan dan bahan makanan mini</option><option>POV tangan memasak mini dari dekat</option></select></div></div></section>
+<section class="card"><h2>🛍️ 2. Produk affiliate (opsional)</h2><div class="field"><label for="product">Nama dan detail produk</label><input id="product" placeholder="Contoh: wajan Samono warna pink"></div><div class="field"><label for="photo">Unggah foto produk untuk referensi</label><input id="photo" type="file" accept="image/*"><img id="preview" class="preview" alt="Pratinjau foto produk"><div class="hint">Foto hanya ditampilkan sebagai referensi di halaman ini; belum dikirim ke AI.</div></div></section>
+<section class="card"><h2>🎧 3. Suara dan narasi</h2><div class="field"><label>Mode suara</label><div class="radio-row"><label class="pill"><input type="radio" name="audio" value="ASMR saja" checked> ASMR saja</label><label class="pill"><input type="radio" name="audio" value="Narasi saja"> Narasi saja</label><label class="pill"><input type="radio" name="audio" value="ASMR + narasi"> ASMR + narasi</label></div></div><div class="grid"><div class="field"><label for="voice">Jenis suara</label><select id="voice"><option>Perempuan</option><option>Laki-laki</option></select></div><div class="field"><label for="style">Gaya suara</label><select id="style"><option>Lembut</option><option>Ceria</option><option>Manja dan imut</option><option>Santai seperti ngobrol</option><option>Narator profesional</option><option>Promosi affiliate</option><option>Berbisik ASMR</option><option>Tegas</option><option>Lucu dan menghibur</option><option>Emosional</option></select></div></div><div class="field"><label for="language">Ketik bahasa yang diinginkan</label><input id="language" placeholder="Contoh: Bahasa Mandar, Bugis, Makassar..."><div class="hint">Bisa ketik bebas. Kemampuan membuat audio dalam bahasa tertentu bergantung pada layanan suara yang digunakan.</div></div><div class="field"><label for="narration">Teks narasi sendiri (opsional)</label><textarea id="narration" placeholder="Ketik narasi jika sudah punya. Jika kosong, generator membuat arahan narasi."></textarea></div></section>
+<section class="card"><h2>🎨 4. Detail visual</h2><div class="grid"><div class="field"><label for="nails">Warna kuku</label><select id="nails"><option>Warna-warni sesuai warna masakan</option><option>Merah, pink, dan putih</option><option>Pastel pink dan krem</option><option>Hijau, putih, dan krem</option><option>Cokelat, moka, dan krem</option><option>Warna pilihan sendiri</option></select></div><div class="field"><label for="sleeves">Baju tangan</label><select id="sleeves"><option>Baju lengan panjang, warna serasi dan konsisten</option><option>Lengan panjang putih krem</option><option>Lengan panjang pink pastel</option><option>Lengan panjang warna pilihan sendiri</option></select></div></div><div class="field"><label for="extra">Catatan tambahan (opsional)</label><textarea id="extra" placeholder="Contoh: fokus suara minyak mendesis, close-up saat menuang kuah"></textarea></div></section>
+<button class="btn primary" id="generate">✨ Buat Storyboard & Prompt</button>
+<section id="output" class="card hidden"><h2>📋 Hasil generator</h2><p class="hint">Ini adalah draf prompt yang bisa disalin ke alat pembuat gambar atau video AI.</p><div class="result-head"><strong>Prompt utama</strong><button class="smallbtn" data-copy="mainResult">Salin</button></div><div id="mainResult" class="result"></div><div class="result-head"><strong>Storyboard per scene</strong><button class="smallbtn" data-copy="sceneResult">Salin</button></div><div id="sceneResult" class="result"></div><div class="result-head"><strong>Hook, caption & CTA affiliate</strong><button class="smallbtn" data-copy="marketingResult">Salin</button></div><div id="marketingResult" class="result"></div><div class="notice">Catatan: halaman prototipe ini menyusun teks prompt secara lokal. Untuk menghasilkan gambar/video atau audio secara otomatis, perlu dihubungkan ke layanan AI yang sesuai.</div></section>
+<div class="footer">ANNARUANGBELAJAR AI • ASMR MINI COOKING</div></main>
+<script>
+const $=id=>document.getElementById(id);
+$('photo').addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(!f){$('preview').style.display='none';return}const r=new FileReader();r.onload=()=>{$('preview').src=r.result;$('preview').style.display='block'};r.readAsDataURL(f)});
+
+function recipeFor(dish){
+ const d=dish.toLowerCase();
+ const has=(...words)=>words.some(w=>d.includes(w));
+ if(has('mie bakso','bakso','mie kuah','mi kuah')) return {
+  ingredients:'mi, bakso, kuah kaldu, daun bawang, bawang goreng, dan pelengkap sesuai pilihan',
+  steps:[
+   'Susun mi, bakso, kaldu, daun bawang, dan pelengkap dalam wadah-wadah mini di meja.',
+   'Siapkan daun bawang dan pelengkap; iris tipis dengan pisau mini dan gerakan tangan yang aman.',
+   'Tuang kaldu ke panci mini, lalu panaskan hingga muncul uap lembut dan gelembung kecil.',
+   'Masukkan bakso ke dalam kaldu panas secara perlahan menggunakan penjepit mini.',
+   'Rebus mi dalam panci mini berisi air panas hingga terurai dan matang sesuai teksturnya.',
+   'Angkat mi dengan saringan mini, biarkan air menetes kembali ke panci.',
+   'Letakkan mi ke mangkuk mini, lalu susun bakso di atasnya.',
+   'Tuangkan kuah kaldu panas ke mangkuk; tampilkan uap alami yang naik dari permukaan.',
+   'Tambahkan daun bawang dan bawang goreng sedikit demi sedikit sebagai pelengkap.',
+   'Tampilkan mie bakso mini yang sudah jadi dengan close-up mi, bakso, kuah, dan uap hangat.'
+  ]
+ };
+ if(has('mie goreng','mi goreng')) return {
+  ingredients:'mi, bumbu, minyak, sayuran, dan pelengkap sesuai pilihan',
+  steps:[
+   'Susun mi, bumbu, sayuran, minyak, dan pelengkap dalam wadah-wadah mini.',
+   'Siapkan sayuran dan iris tipis dengan pisau mini secara realistis.',
+   'Rebus mi di panci mini hingga cukup lunak, lalu angkat dengan saringan mini.',
+   'Panaskan sedikit minyak di wajan mini hingga berkilau lembut.',
+   'Masukkan bumbu ke wajan mini dan tumis sebentar sampai aromanya terasa.',
+   'Tambahkan sayuran dan aduk perlahan dengan spatula mini.',
+   'Masukkan mi yang sudah ditiriskan ke wajan.',
+   'Tuangkan bumbu secara merata lalu aduk mi hingga warnanya merata.',
+   'Tambahkan pelengkap, lalu pindahkan mi goreng ke piring mini.',
+   'Tampilkan mi goreng mini yang matang dengan detail helai mi dan pelengkap.'
+  ]
+ };
+ if(has('bolu','kue','cake','brownies','martabak manis','terang bulan')) return {
+  ingredients:'bahan adonan dan topping sesuai jenis kue yang dipilih',
+  steps:[
+   'Susun bahan kue dan loyang mini di atas meja dapur.',
+   'Masukkan bahan kering ke mangkuk mini sesuai resep kue.',
+   'Tambahkan bahan cair secara bertahap ke mangkuk.',
+   'Aduk adonan dengan whisk mini hingga tercampur rata.',
+   'Tuangkan adonan ke loyang mini tanpa tumpah.',
+   'Masukkan loyang ke oven mini dengan gerakan tangan yang wajar.',
+   'Tampilkan kue mengembang dan berubah warna secara bertahap saat dipanggang.',
+   'Keluarkan loyang mini dengan alat pelindung yang sesuai.',
+   'Tambahkan topping atau hiasan sesuai jenis kue.',
+   'Tampilkan kue mini yang matang dengan close-up permukaan dan bagian dalamnya.'
+  ]
+ };
+ if(has('nasi goreng')) return {
+  ingredients:'nasi, bumbu, minyak, telur atau protein pilihan, sayuran, dan pelengkap',
+  steps:[
+   'Susun nasi, bumbu, sayuran, minyak, dan pelengkap dalam wadah mini.',
+   'Siapkan dan iris bahan pelengkap dengan pisau mini.',
+   'Panaskan sedikit minyak di wajan mini.',
+   'Masukkan bumbu ke wajan dan tumis hingga harum.',
+   'Tambahkan telur atau protein pilihan dan masak hingga matang.',
+   'Masukkan sayuran lalu aduk secara perlahan.',
+   'Tambahkan nasi sedikit demi sedikit ke wajan mini.',
+   'Tuangkan kecap atau bumbu pilihan dan aduk hingga merata.',
+   'Pindahkan nasi goreng ke piring mini dan tambahkan pelengkap.',
+   'Tampilkan nasi goreng mini yang matang dengan detail butiran nasi dan uap hangat.'
+  ]
+ };
+ if(has('sate')) return {
+  ingredients:'potongan bahan utama, bumbu marinasi, tusuk sate mini, dan saus pelengkap',
+  steps:[
+   'Susun bahan utama, bumbu, tusuk sate mini, dan saus di meja.',
+   'Potong bahan utama menjadi bagian kecil dengan gerakan aman.',
+   'Campurkan bahan dengan bumbu marinasi di mangkuk mini.',
+   'Tusukkan potongan bahan ke tusuk sate mini secara berurutan.',
+   'Panaskan panggangan mini hingga siap digunakan.',
+   'Letakkan sate di atas panggangan mini dengan jarak yang wajar.',
+   'Balik sate perlahan menggunakan penjepit mini.',
+   'Oleskan bumbu secara tipis ketika sate dimasak.',
+   'Angkat sate yang matang dan sajikan dengan saus pelengkap.',
+   'Tampilkan sate mini matang dengan detail permukaan panggang dan saus.'
+  ]
+ };
+ if(has('onde-onde','onde onde')) return {
+  ingredients:'tepung, bahan isian, wijen, dan bahan adonan sesuai resep',
+  steps:[
+   'Susun bahan adonan, isian, wijen, dan wadah mini di meja.',
+   'Campurkan bahan adonan di mangkuk mini.',
+   'Uleni adonan perlahan hingga menyatu.',
+   'Ambil sedikit adonan lalu pipihkan di telapak tangan.',
+   'Letakkan isian di tengah dan tutup rapat menjadi bola.',
+   'Gulingkan bola adonan di wijen hingga permukaannya tertutup.',
+   'Masukkan onde-onde ke minyak hangat di wajan mini dengan hati-hati.',
+   'Goreng perlahan hingga mengembang dan berwarna keemasan.',
+   'Angkat dan tiriskan onde-onde menggunakan saringan mini.',
+   'Tampilkan onde-onde mini matang dengan detail wijen dan kulitnya.'
+  ]
+ };
+ return {
+  ingredients:`bahan utama dan bumbu yang lazim digunakan untuk ${dish}, disiapkan dalam wadah mini`,
+  steps:[
+   `Perkenalkan bahan-bahan yang diperlukan untuk ${dish} dalam wadah mini di meja.`,
+   `Cuci atau siapkan bahan ${dish} sesuai kebutuhan; jangan menambahkan bahan yang tidak relevan.`,
+   `Potong atau ukur bahan ${dish} dengan alat mini dan gerakan tangan yang aman, bila diperlukan.`,
+   `Siapkan bumbu dan perlengkapan mini yang sesuai untuk ${dish}.`,
+   `Panaskan alat masak mini yang tepat untuk ${dish}, jika prosesnya membutuhkan pemanasan.`,
+   `Masukkan bahan ${dish} secara bertahap dengan urutan memasak yang masuk akal.`,
+   `Aduk, balik, bentuk, atau olah ${dish} sesuai teknik memasaknya; jangan gunakan gerakan yang tidak cocok.`,
+   `Tampilkan perubahan tekstur dan kematangan ${dish} secara bertahap dan realistis.`,
+   `Sajikan ${dish} ke piring atau mangkuk mini yang sesuai.`,
+   `Tampilkan ${dish} mini yang sudah jadi dalam hero shot sinematik.`
+  ]
+ };
+}
+
+$('generate').addEventListener('click',()=>{
+ const dish=$('dish').value.trim()||'masakan pilihan';
+ const n=+$('scenes').value, mode=$('mode').value, product=$('product').value.trim();
+ const kitchen=$('kitchen').value, hands=$('hands').value;
+ const audio=document.querySelector('input[name="audio"]:checked').value;
+ const voice=$('voice').value, style=$('style').value;
+ const lang=$('language').value.trim()||'Bahasa Indonesia';
+ const narration=$('narration').value.trim(), nails=$('nails').value, sleeves=$('sleeves').value;
+ const extra=$('extra').value.trim(), affiliate=mode.includes('Affiliate');
+ const duration=+$('duration').value, recipe=recipeFor(dish);
+ const mini='DUNIA MINIATUR YANG JELAS: semua bahan, makanan, panci, wajan, pisau, talenan, saringan, sendok, piring, dan mangkuk berukuran sangat kecil seperti miniatur/dollhouse. Tangan manusia berukuran normal menjadi pembanding skala yang jelas. Perlihatkan kontras ukuran tangan normal dengan alat masak mini di setiap scene. Skala seluruh benda harus konsisten dari awal sampai akhir.';
+ let main=`Buat video ${mode} tentang ${dish}. Format vertikal 9:16, POV ASMR Mini Cooking Cinematic, fotorealistis, detail makro tajam, tekstur makanan nyata, pencahayaan sinematik lembut. Lokasi konsisten: ${kitchen}. ${hands}. ${mini} Bahan yang relevan: ${recipe.ingredients}. Ikuti proses memasak ${dish} yang spesifik, berurutan, dan masuk akal; jangan memasukkan langkah atau bahan dari menu lain. Setiap aksi harus memperlihatkan kontak fisik yang nyata antara tangan, alat, dan bahan. Tidak ada benda melayang, benda muncul tiba-tiba, perpindahan ajaib, atau perubahan bentuk mendadak. Tangan tampak alami tanpa wajah; jari lengkap dan proporsional. Kuku: ${nails}. Lengan baju: ${sleeves}. Pertahankan tangan, kuku, lengan baju, dapur, arah cahaya, dan skala miniatur tetap sama di semua scene. Jumlah scene: ${n}, durasi total: ${duration} detik. Audio: ${audio}; gunakan bunyi sesuai aksi yang benar-benar terlihat.`;
+ if(affiliate){main+=` Produk affiliate: ${product||'produk yang diunggah pengguna'}. Jika foto produk diberikan, jadikan foto sebagai referensi dan pertahankan bentuk, warna, desain, logo, material, serta detail produk; jangan mengubah identitasnya. Letakkan produk secara alami dan jangan menghalangi proses memasak.`}
+ if(extra) main+=` Catatan tambahan: ${extra}.`;
+ main+=' Hindari gaya kartun, ukuran benda yang berubah-ubah, peralatan berukuran normal, tangan cacat, jari berlebih, teks acak, dan gerakan yang tidak realistis.';
+ const scenes=[];
+ for(let i=0;i<n;i++){
+  const stepIndex=Math.min(recipe.steps.length-1,Math.floor(i*recipe.steps.length/n));
+  let act=recipe.steps[stepIndex];
+  if(n===1) act=recipe.steps[recipe.steps.length-1];
+  const seconds=(duration/n).toFixed(duration%n===0?0:1);
+  let line=`SCENE ${i+1} — ${seconds} detik. AKSI: ${act} ${mini} Dapur ${kitchen}; sudut kamera POV makro dekat; pencahayaan lembut konsisten; gerakan tangan perlahan, wajar, dan terlihat menyentuh benda yang sedang diolah. Tampilkan hanya bahan dan alat yang relevan untuk ${dish}.`;
+  line+=` Audio: ${audio==='Narasi saja'?'narasi saja dengan suara lingkungan sangat minim':audio==='ASMR + narasi'?'suara ASMR dari aksi yang terlihat ditambah narasi':'suara ASMR alami yang cocok dengan aksi yang terlihat'}.`;
+  if(affiliate&&product) line+=` Produk affiliate: ${product}; pertahankan bentuk, warna, logo, dan skala produk tetap konsisten.`;
+  if(audio!=='ASMR saja') line+=` Arahan narasi: ${narration||`Gunakan suara ${voice.toLowerCase()}, gaya ${style.toLowerCase()}, dalam ${lang}.`}`;
+  scenes.push(line);
+ }
+ $('mainResult').textContent=main;
+ $('sceneResult').textContent=scenes.join('\n\n');
+ $('marketingResult').textContent=`HOOK: “Lihat proses ${dish} versi mini yang detailnya bikin penasaran!”\nCAPTION: Proses memasak ${dish} dalam dunia mini dengan detail ASMR yang memanjakan mata dan telinga.\nCTA: Simpan ide ini dan cek produk yang digunakan jika tersedia.\n${affiliate?'Produk affiliate: '+(product||'isi nama produk'):'Mode non-affiliate: hapus bagian promosi produk bila tidak diperlukan.'}`;
+ $('output').classList.remove('hidden');$('output').scrollIntoView({behavior:'smooth',block:'start'});
+});
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{const t=$(b.dataset.copy).textContent;try{await navigator.clipboard.writeText(t);b.textContent='Tersalin ✓';setTimeout(()=>b.textContent='Salin',1400)}catch(e){const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();b.textContent='Tersalin ✓';setTimeout(()=>b.textContent='Salin',1400)}}));
+</script></body></html>
